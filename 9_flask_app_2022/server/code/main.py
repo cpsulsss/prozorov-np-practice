@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flaskapp import Flask, request
 from pydantic import ValidationError
 
 from models import User, AuthUser
